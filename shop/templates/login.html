@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% block content %}
+<header class="bg-dark py-5">
+    <div class="container px-4 px-lg-5 my-5">
+        <div class="text-center text-white">
+            <h1 class="display-4 fw-bolder">login here</h1>
+            <p class="lead fw-normal text-white-50 mb-0">
+            <h4> page login </h4>
+            </p>
+        </div>
+    </div>
+</header>
+
+<div class="container">
+    <div class="row">
+        <center> <br><br><br>
+            <div class="col-10">
+                <form>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" name="username" placeholder="enter your username">
+                    </div>
+                    <div class="mb-3">
+                        <input type="password" class="form-control" name="password" placeholder="enter your password">
+                    </div>
+                        <button type="submit" class="btn btn-secondary">Enter</button>
+                    </form>
+            </div>
+        </center>
+    </div> <br><br><br>
+</div>
+{% endblock %}
